@@ -8,83 +8,11 @@
     "category": "Grantie",
     "countInStock": 6,
     "description": "this is the  natchural jahsi red granie"
-  },
-  {
-   
-    "name": "Marble",
-    "productImage": "uploads/product/img2.jpg",
-    "brand": "rajsathan",
-    "price": 80,
-    "category": "Marble",
-    "countInStock": 3,
-    "description": "This is the best marble ."
-  },
-  {
-    
-    "name": " Granite",
-    "productImage": "uploads/product/img3.jpg",
-    "brand": " Red",
-    "price": 100,
-    "category": "Grantie",
-    "countInStock": 6,
-    "description": "this is the  natchural jahsi  granite"
-  },
-  {
- 
-    "name": "Marble",
-    "productImage": "uploads/product/img4.jpg",
-    "brand": "rajsathan",
-    "price": 75,
-    "category": "Marble",
-    "countInStock": 3,
-    "description": "This is the best marble ."
-  },
-
-{
-
-  "name": "Marble",
-  "productImage": "uploads/product/img5.jpg",
-  "brand": "rajsathan",
-  "price": 65,
-  "category": "Marble",
-  "countInStock": 3,
-  "description": "This is the best marble ."
-},
-
-
-{
-  
-  "name": "Marble",
-  "productImage": "uploads/product/img6.jpg",
-  "brand": "rajsathan",
-  "price": 200,
-  "category": "Marble",
-  "countInStock": 3,
-  "description": "This is the best marble ."
-},
-
-
-{
-
-"name": "Marble",
-"productImage": "uploads/product/img7.jpg",
-"brand": "rajsathan",
-"price": 100,
-"category": "Marble",
-"countInStock": 3,
-"description": "This is the best marble ."
-},
-
-{
- 
-  "name": "Marble",
-  "productImage": "uploads/product/img8.jpg",
-  "brand": "rajsathan",
-  "price": 100,
-  "category": "Marble",
-  "countInStock": 3,
-  "description": "This is the best marble ."
   }
+ 
+
+
+
 
 
 
