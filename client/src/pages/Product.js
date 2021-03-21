@@ -22,6 +22,7 @@ import PinchZoomPan from "react-responsive-pinch-zoom-pan-magnifier";
 
 
 
+
 const useStyles = makeStyles((theme) => ({
   typography: {
     padding: theme.spacing(2),
@@ -82,7 +83,7 @@ const ProductDetails = ({ match, history }) => {
         <>
           <Row>
             <Col md={6}>
-            <div id="neha">
+            <div style={{ width: '500px', height: '500px' }}>
             <PinchZoomPan>
            <img src={product.productImage} alt ={product.name}/>
            </PinchZoomPan>
