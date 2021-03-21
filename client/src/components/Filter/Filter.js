@@ -37,6 +37,7 @@ function Filtetr({
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
+    event.preventdefault();
   };
 
   const handleClose = () => {
