@@ -16,6 +16,11 @@ import {
 import * as productConstants from "../constants/productConstants";
 import SinglePageLoader from "../components/Loader/SinglePageLoader";
 import { addToCart } from "../actions/cartAction";
+import ReactImageMagnify from 'react-image-magnify';
+import PinchZoomPan from "react-responsive-pinch-zoom-pan-magnifier";
+
+
+
 
 const useStyles = makeStyles((theme) => ({
   typography: {
@@ -77,14 +82,18 @@ const ProductDetails = ({ match, history }) => {
         <>
           <Row>
             <Col md={6}>
-              <Image src={product.productImage} alt={product.name} fluid />
+            <div id="neha">
+            <PinchZoomPan>
+           <img src={product.productImage} alt ={product.name}/>
+           </PinchZoomPan>
+           </div>
             </Col>
-            <Col md={3}>
-              <ListGroup variant="flush">
-                <ListGroup.Item>
+            <Col id ="ron" md={3} >
+              <ListGroup id="bha" variant="flush">
+                <ListGroup.Item id="ved">
                   <h3>{product.name}</h3>
                 </ListGroup.Item>
-                <ListGroup.Item>
+                <ListGroup.Item id="ved">
                   <Rating
                     value={product.averageRating}
                     text={`${
@@ -92,16 +101,16 @@ const ProductDetails = ({ match, history }) => {
                     } reviews`}
                   />
                 </ListGroup.Item>
-                <ListGroup.Item>Price: RS{product.price}</ListGroup.Item>
-                <ListGroup.Item>
+                <ListGroup.Item id="ved">Price: RS{product.price}</ListGroup.Item>
+                <ListGroup.Item id="ved">
                   Description: {product.description}
                 </ListGroup.Item>
               </ListGroup>
             </Col>
-            <Col md={3}>
+            <Col id="ron" md={3}>
               <Card>
-                <ListGroup variant="flush">
-                  <ListGroup.Item>
+                <ListGroup id="bha" variant="flush">
+                  <ListGroup.Item id="ved">
                     <Row>
                       <Col>Price:</Col>
                       <Col>
@@ -110,7 +119,7 @@ const ProductDetails = ({ match, history }) => {
                     </Row>
                   </ListGroup.Item>
 
-                  <ListGroup.Item>
+                  <ListGroup.Item id="ved">
                     <Row>
                       <Col>Status:</Col>
                       <Col>
@@ -120,7 +129,7 @@ const ProductDetails = ({ match, history }) => {
                   </ListGroup.Item>
 
                   {product.countInStock > 0 && (
-                    <ListGroup.Item>
+                    <ListGroup.Item id="ved">
                       <Row>
                         <Col>Qty</Col>
                         <Col>

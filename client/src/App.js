@@ -24,7 +24,7 @@ import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
 import ResetPassword from "./pages/ResetPassword";
 import EmailVerification from "./pages/EmailVerification";
-
+import Privacy from "./components/Privacy";
 function App() {
   return (
     <BrowserRouter>
@@ -95,6 +95,10 @@ function App() {
               component={EmailVerification}
             />
             <Route exact={true} path="/logout" component={Logout} />
+            <Route exact={true} path="/Privacy" component={Privacy} />
+          
+          
+          
           </Switch>
         </Container>
       </main>

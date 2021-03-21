@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -14,7 +15,7 @@ const Footer = () => {
           <h2 id="red">Policy Info</h2>
           <ul id="blue">
             <li id="white">
-              <a href='/'>Privacy policy</a>
+              <Link to='/Privacy'> Privacy policy</Link>
             </li>
 
             <li id="white">
