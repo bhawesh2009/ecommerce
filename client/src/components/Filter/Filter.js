@@ -37,11 +37,16 @@ function Filtetr({
 
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
-    event.preventdefault();
+    
   };
 
   const handleClose = () => {
     setAnchorEl(null);
+  };
+  const handlePriceRange=(event)=> {
+       event.preventdefault();    
+
+
   };
 
   const open = Boolean(anchorEl);
